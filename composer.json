@@ -1,6 +1,6 @@
 { 
-    "name": "hosannahighertech/yii2-profile", 
-    "type": "yii2-module",
+    "name": "hosannahighertech/yii2-audiojs", 
+    "type": "yii2-widget",
     "description": "Yii2 Audio Player Widget",
     "keywords": ["yii2", "audio", "player", "js-player", "yii"],
     "license": "MIT",
