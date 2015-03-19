@@ -1,0 +1,30 @@
+{ 
+    "name": "hosannahighertech/yii2-profile", 
+    "type": "yii2-module",
+    "description": "Yii2 Audio Player Widget",
+    "keywords": ["yii2", "audio", "player", "js-player", "yii"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/hosannahighertech/yii2-audiojs/issues",
+        "forum": "http://hosannahighertech.co.tz/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/hosannahighertech/yii2-profile"
+    },
+    "authors": [
+        {
+            "name": "Stefano Mtangoo",
+            "email": "support@hosannahighertech.co.tz"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",  
+    },
+    "autoload": {
+        "psr-4": {
+            "hosanna\\audiojs\\": ""
+        }
+    }
+}
+
+
