@@ -1,5 +1,5 @@
 <?php
-namespace app\components\audiojs;
+namespace hosanna\audiojs;
 
 use yii\web\AssetBundle;
 use Yii;

@@ -1,5 +1,5 @@
 <?php
-namespace app\components\audiojs;
+namespace hosanna\audiojs;
 
 use yii\base\Widget;
 use yii\helpers\Html;
