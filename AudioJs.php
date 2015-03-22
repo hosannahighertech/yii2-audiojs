@@ -35,12 +35,12 @@ class AudioJs extends Widget
         {
             foreach($this->files as $file)
             {
-                $audio = $audio."<audio src='{$this->uploads}/$file?time()' preload='auto' />";
+                $audio = $audio."<audio src='{$this->uploads}/$file?".time()."' preload='auto' />";
             }
         }
         else
         {
-            $audio = "<audio src='{$this->uploads}/{$this->files}?time()' preload='auto' ></audio>";
+            $audio = "<audio src='{$this->uploads}/{$this->files}?".time()."' preload='auto' ></audio>";
         }
         return Html::tag('div', $audio);
     }
